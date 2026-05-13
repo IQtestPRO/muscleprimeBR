@@ -1,0 +1,209 @@
+{
+  "brand": "MusclePrime Brasil",
+  "platform": "Meta Ads",
+  "generator": {
+    "provider": "Higgsfield",
+    "model": "Nano Banana Pro",
+    "job_set_type": "nano_banana_2",
+    "imageSize": "2K",
+    "formats": ["4:5", "1:1"]
+  },
+  "brand_references": {
+    "logo": "assets/brand/muscleprime-logo-variation-3-premium-pharma.png",
+    "site_screenshot": "docs/creative/meta-ads-muscleprime/site-current-screenshot.png",
+    "site_palette": ["#FDFDFB", "#FFFFFF", "#E5E8EC", "#434D5D", "#424B5D", "#8BBCFF", "#7FB4FF"],
+    "type_style": "Geist / SF Pro Display / Helvetica Neue, bold clean catalog typography"
+  },
+  "global_negative_prompt": "third-party logos, competitor brands, readable medicine labels, drug names, dosage text, prescription labels, controlled substances, syringes, needles, injection scenes, pills being consumed, bodybuilder transformation, before and after, weight scale, measuring tape, body fat pinch, extreme body, weight loss claims, muscle gain claims, medical cure claims, treatment claims, guaranteed results, official government seal, red cross, doctor coat, fake certification badge, fake discount badge, price tag, countdown timer, checkout cart, cluttered layout, tiny unreadable text, hallucinated words, distorted logo, low quality, harsh shadows, underground anabolic aesthetic",
+  "creatives": [
+    {
+      "name": "Catalogo de Performance Premium",
+      "objective": "Apresentar a MusclePrime Brasil como catalogo premium, organizado e confiavel.",
+      "meta_ads_angle": "Clareza e organizacao para explorar o catalogo.",
+      "target_stage": "cold",
+      "primary_text_variations": [
+        "Organize sua rotina de performance com um catalogo premium, direto e facil de navegar.",
+        "Explore produtos e categorias em uma experiencia mais limpa, rapida e intuitiva.",
+        "MusclePrime Brasil: catalogo premium para quem valoriza clareza e praticidade."
+      ],
+      "headline_variations": [
+        "Catalogo premium de performance",
+        "Escolha com mais clareza",
+        "Explore o MusclePrime Brasil"
+      ],
+      "description_variations": [
+        "Busca simples, categorias claras e visual premium.",
+        "Uma experiencia de catalogo feita para comparar opcoes com calma.",
+        "Consulte produtos e categorias em poucos cliques."
+      ],
+      "cta": "Ver catalogo",
+      "prompt_4x5": "Create a premium Meta Ads creative in 4:5 for the brand \"MusclePrime Brasil\". Use the provided MusclePrime Brasil logo and current website screenshot as visual references. Vertical mobile-first composition, clinical white background with subtle light medical-blue gradients, a modern smartphone mockup centered showing a clean ecommerce catalog interface inspired by the actual site, minimal product cards floating around the phone with generic blurred thumbnails and no readable labels, soft studio lighting, refined shadows, Apple-like premium ecommerce feel, high legibility, strong safe margins. Main text at top exactly: \"PERFORMANCE COM MAIS CLAREZA\". Smaller subtext exactly: \"Catalogo premium para sua rotina.\" Visual CTA button exactly: \"Ver catalogo\". No body transformation, no before-after, no drug names, no dosages, no prices, no medical claims. 2K, sharp, polished, premium product advertising.",
+      "prompt_1x1": "Create a square 1:1 Meta Ads version for \"MusclePrime Brasil\". Use the provided logo and site screenshot as references. Large central smartphone mockup showing a clean product catalog, organized generic product cards around it, clinical white and pale blue background, graphite typography, premium studio lighting, high contrast, crisp UI details. Main text exactly: \"PERFORMANCE COM MAIS CLAREZA\". Subtext exactly: \"Catalogo premium para sua rotina.\" CTA button exactly: \"Ver catalogo\". Keep the design clean, trustworthy and compliant. No readable medicine labels, no product claims, no prices, no body images. 2K, high detail, sharp.",
+      "negative_prompt": "Use the global negative prompt. Also avoid dark underground gym mood, aggressive bodybuilding visuals, medicine names on cards, and fake app buttons.",
+      "compliance_notes": [
+        "Baixo a medio risco se mantiver foco em catalogo e nao em produto regulado.",
+        "Nao destacar medicamentos, dosagens, laboratorios ou precos.",
+        "Landing page deve evitar promessas e manter orientacao profissional."
+      ],
+      "higgsfield_motion_prompt": "Transform this static ad into a clean 6-8 second motion preview. Slow push-in toward the smartphone, subtle parallax on product cards, gentle blue light sweep behind the logo, stable readable text, no generated extra words, no glitch, no particle overload, preserve layout and compliance.",
+      "production_notes": [
+        "Usar screenshot real do site como referencia visual, mas trocar nomes legiveis por linhas genericas.",
+        "Aplicar texto final em camada de design se o gerador distorcer letras.",
+        "Exportar 1080x1350 e 1080x1080 para teste inicial."
+      ]
+    },
+    {
+      "name": "Treino, Rotina e Organizacao",
+      "objective": "Vender contexto de rotina fitness sem prometer transformacao corporal.",
+      "meta_ads_angle": "Rotina organizada e compra mais clara.",
+      "target_stage": "cold",
+      "primary_text_variations": [
+        "Escolha com clareza. Explore categorias e opcoes com mais praticidade.",
+        "Menos confusao na hora de escolher. Mais organizacao para sua rotina.",
+        "Uma experiencia premium para consultar produtos e categorias com calma."
+      ],
+      "headline_variations": [
+        "Sua rotina mais organizada",
+        "Explore com praticidade",
+        "Clareza para sua rotina"
+      ],
+      "description_variations": [
+        "Catalogo limpo, busca simples e visual direto.",
+        "Ideal para explorar opcoes sem poluicao visual.",
+        "Rotina, treino e catalogo em uma experiencia premium."
+      ],
+      "cta": "Explorar agora",
+      "prompt_4x5": "Create a premium 4:5 Meta Ads creative for \"MusclePrime Brasil\". Editorial realistic scene on a clean premium gym or home training bench: a smartphone with the MusclePrime Brasil catalog open, generic supplement containers with completely blank or unreadable labels placed as soft supporting props, black minimalist water bottle, folded towel, soft lateral natural light, elegant shadows, clean clinical white and light blue brand palette, premium ecommerce lifestyle aesthetic. Main text at top exactly: \"SUA ROTINA MAIS ORGANIZADA\". Subtext exactly: \"Escolha com clareza. Explore com praticidade.\" CTA button exactly: \"Explorar agora\". Do not show before-after, body ideals, weight scale, measuring tape, medical products, dosages, or claims. 2K, realistic, premium editorial product ad, sharp details.",
+      "prompt_1x1": "Create a 1:1 square version for \"MusclePrime Brasil\". Premium diagonal flatlay on a clean training bench: smartphone with a catalog UI, generic blank-label containers, towel and bottle, clinical white background with pale blue accents, refined lighting and strong readable typography. Text exactly: \"SUA ROTINA MAIS ORGANIZADA\". Subtext exactly: \"Escolha com clareza.\" CTA exactly: \"Explorar agora\". No body transformation, no medical claims, no readable product labels. 2K, high detail, polished.",
+      "negative_prompt": "Use the global negative prompt. Also avoid sweaty extreme gym scene, topless athletes, body comparison, scale, tape measure, visible medication labels, and fake supplement claims.",
+      "compliance_notes": [
+        "Nao prometer melhora de performance, emagrecimento ou ganho de massa.",
+        "Produtos devem ser genericos e sem rotulos legiveis.",
+        "Usar contexto de rotina, nao transformacao."
+      ],
+      "higgsfield_motion_prompt": "Create a 6-8 second premium motion preview. Slow light pass over the bench, gentle zoom toward the smartphone catalog, subtle parallax on bottle and towel, preserve text exactly, no new labels, no exaggerated gym effects.",
+      "production_notes": [
+        "Bom para Feed e Reels com trafego frio.",
+        "Se usar produtos reais do site, desfocar thumbnails e remover nomes/dosagens.",
+        "Evitar CTA de compra direta se a campanha apontar para produtos sensiveis."
+      ]
+    },
+    {
+      "name": "Achou, Comparou, Decidiu",
+      "objective": "Destacar facilidade da jornada no catalogo sem reforcar venda direta de produto regulado.",
+      "meta_ads_angle": "Busca, comparacao e decisao com menos friccao.",
+      "target_stage": "warm",
+      "primary_text_variations": [
+        "Um catalogo feito para encontrar produtos e comparar opcoes com mais calma.",
+        "Busque, compare e explore categorias em uma experiencia mais intuitiva.",
+        "Do primeiro clique a uma escolha mais organizada."
+      ],
+      "headline_variations": [
+        "Achou. Comparou. Decidiu.",
+        "Decida com mais clareza",
+        "Produtos em poucos cliques"
+      ],
+      "description_variations": [
+        "Interface limpa para uma consulta mais objetiva.",
+        "Uma jornada simples para explorar o catalogo.",
+        "Busca, categorias e produtos em um fluxo direto."
+      ],
+      "cta": "Comecar",
+      "prompt_4x5": "Create a premium functional 4:5 Meta Ads creative for \"MusclePrime Brasil\". Layout with three large elegant UI cards in a vertical sequence: \"1. Busque\", \"2. Compare\", \"3. Decida\". Behind them, a softly blurred MusclePrime Brasil catalog interface based on the provided site screenshot. Center has a crisp smartphone mockup showing a generic product catalog page with no readable medicine names or prices. Modern fintech/ecommerce premium aesthetic, clinical white, light blue active states, graphite typography, subtle liquid-glass depth, soft shadows. Main text exactly: \"ACHOU. COMPAROU. DECIDIU.\" Subtext exactly: \"Um catalogo feito para decidir melhor.\" CTA exactly: \"Comecar\". No medical claims, no body results, no checkout cart, no drug labels. 2K, sharp, clean premium UI ad.",
+      "prompt_1x1": "Create a 1:1 square version for \"MusclePrime Brasil\". Three cards \"Busque\", \"Compare\", \"Decida\" arranged around a central smartphone catalog mockup, white clinical background, light blue highlights, graphite typography, premium UI depth, clean safe margins. Main text exactly: \"ACHOU. COMPAROU. DECIDIU.\" Subtext exactly: \"Um catalogo feito para decidir melhor.\" CTA exactly: \"Comecar\". No drug names, no prices, no claims, no body imagery. 2K, sharp.",
+      "negative_prompt": "Use the global negative prompt. Also avoid the word 'comprou' if it implies direct sale of regulated products, fake cart icons, checkout screens, discount badges, prescription wording, and product names.",
+      "compliance_notes": [
+        "Versao segura usa 'Decidiu' em vez de 'Comprou'.",
+        "Nao mostrar carrinho, checkout ou pagamento.",
+        "Indicado para publico morno ou retargeting leve."
+      ],
+      "higgsfield_motion_prompt": "Create a 6 second clean UI motion preview. Cards enter one by one: Busque, Compare, Decida. Smartphone remains stable at center, final CTA receives a subtle blue highlight. No text rewriting, no glitch, no extra product names.",
+      "production_notes": [
+        "Manter texto grande para leitura em mobile.",
+        "Testar contra a versao de Catalogo Premium para avaliar CTR de UI."
+      ]
+    },
+    {
+      "name": "Curadoria MusclePrime",
+      "objective": "Posicionar a marca como curadoria organizada, nao apenas loja.",
+      "meta_ads_angle": "Categorias claras reduzem friccao na escolha.",
+      "target_stage": "cold",
+      "primary_text_variations": [
+        "Categorias organizadas para uma experiencia de catalogo mais objetiva.",
+        "Explore por categoria e encontre opcoes com mais clareza.",
+        "Menos busca manual. Mais organizacao visual para consultar o catalogo."
+      ],
+      "headline_variations": [
+        "Menos busca. Mais clareza.",
+        "Categorias organizadas",
+        "Explore por objetivo"
+      ],
+      "description_variations": [
+        "Um catalogo visualmente mais simples de navegar.",
+        "Produtos agrupados para consulta rapida.",
+        "Organizacao premium para sua rotina."
+      ],
+      "cta": "Ver categorias",
+      "prompt_4x5": "Create a 4:5 Meta Ads creative for \"MusclePrime Brasil\" with a premium catalog aesthetic. Clean sophisticated white background, digital shelf perspective with organized category cards and generic abstract product silhouettes. Use only generic labels on cards: \"Performance\", \"Rotina\", \"Catalogo\", \"Objetivo\". A side smartphone mockup shows the MusclePrime Brasil catalog interface based on the provided screenshot. Light medical-blue accents, graphite typography, calm premium spacing, soft studio lighting. Main text exactly: \"MENOS BUSCA. MAIS CLAREZA.\" Subtext exactly: \"Categorias organizadas para consultar melhor.\" CTA exactly: \"Ver categorias\". Do not promise results, do not use body comparison, do not use medical or drug-specific terms. 2K, premium, minimal, high detail.",
+      "prompt_1x1": "Create a 1:1 square Meta Ads creative for \"MusclePrime Brasil\". Premium grid of category cards around a centered smartphone catalog mockup, white clinical background, pale blue active chips, graphite typography, clean depth and soft shadows. Text exactly: \"MENOS BUSCA. MAIS CLAREZA.\" Subtext exactly: \"Categorias organizadas.\" CTA exactly: \"Ver categorias\". No drug names, no dosages, no claims, no prices. 2K, sharp, polished.",
+      "negative_prompt": "Use the global negative prompt. Also avoid specific product categories that imply prescription drugs, weight loss claims, medical seals, and readable product labels.",
+      "compliance_notes": [
+        "Baixo risco se rótulos forem genericos.",
+        "Evitar categorias sensiveis como 'Emagrecedores' em texto de anuncio.",
+        "Usar 'Rotina', 'Performance' e 'Catalogo' como labels neutros."
+      ],
+      "higgsfield_motion_prompt": "Create a 6-8 second motion preview where category cards slide gently like a premium interface, one card highlights in pale blue, smartphone remains stable, soft lighting, no new text, no product names.",
+      "production_notes": [
+        "Criativo recomendado para publico frio e campanhas de awareness/trafego.",
+        "Usar safe zone central para Stories/Reels crops."
+      ]
+    },
+    {
+      "name": "Rotina Inteligente",
+      "objective": "Testar angulo de combinacao/rotina sem prometer resultado e sem oferta falsa.",
+      "meta_ads_angle": "Explorar opcoes e montar uma rotina com mais organizacao.",
+      "target_stage": "retargeting",
+      "primary_text_variations": [
+        "Explore opcoes e escolha o que faz sentido para sua rotina.",
+        "Volte ao catalogo e continue sua consulta com mais clareza.",
+        "MusclePrime Brasil reune categorias e opcoes para uma escolha mais organizada."
+      ],
+      "headline_variations": [
+        "Monte sua rotina com clareza",
+        "Continue sua escolha",
+        "Ver opcoes do catalogo"
+      ],
+      "description_variations": [
+        "Categorias, produtos e busca em uma experiencia simples.",
+        "Uma forma mais organizada de explorar o catalogo.",
+        "Retome sua consulta no MusclePrime Brasil."
+      ],
+      "cta": "Ver opcoes",
+      "prompt_4x5": "Create a premium 4:5 Meta Ads creative for \"MusclePrime Brasil\" focused on organized routines, not medical or body results. Visual with a central premium arrangement of generic blank-label product containers, abstract category cards, and a subtle smartphone mockup of the MusclePrime Brasil catalog in the background. Clinical white and light blue palette with graphite details, studio lighting, elegant shadows, high-end campaign feel. Main text exactly: \"MONTE SUA ROTINA COM CLAREZA\". Subtext exactly: \"Explore opcoes e escolha melhor.\" CTA exactly: \"Ver opcoes\". Do not show prices, discounts, combo badges, body transformations, drug labels, dosages, or medical claims. 2K, professional, premium ecommerce ad, high detail.",
+      "prompt_1x1": "Create a square 1:1 version for \"MusclePrime Brasil\". Central premium arrangement of generic product containers with unreadable blank labels, category cards, small smartphone catalog mockup behind, white clinical background, pale blue accents, graphite typography. Text exactly: \"MONTE SUA ROTINA COM CLAREZA\". Subtext exactly: \"Explore opcoes.\" CTA exactly: \"Ver opcoes\". No claims, no prices, no discounts, no drug names, no body imagery. 2K, sharp.",
+      "negative_prompt": "Use the global negative prompt. Also avoid the word combo unless an actual validated offer exists, avoid discount seals, fake scarcity, aggressive performance claims and visible regulated products.",
+      "compliance_notes": [
+        "Medio risco se parecer pack promocional; manter generico e sem preco.",
+        "Nao usar 'combo' se nao existir oferta real validada.",
+        "Melhor para retargeting de visitantes do catalogo."
+      ],
+      "higgsfield_motion_prompt": "Create a 6-8 second motion preview with a slow lateral camera move, central generic product arrangement fixed, category cards fade in softly, final CTA gets subtle light pulse, no new words, no discounts, no medical claims.",
+      "production_notes": [
+        "Se a conta estiver sensivel, trocar 'Monte sua rotina' por 'Explore opcoes do catalogo'.",
+        "Adicionar disclaimer na copy ou landing page quando necessario."
+      ]
+    }
+  ],
+  "compliance_checklist": [
+    "No cure, treatment or disease-prevention promise.",
+    "No weight loss promise.",
+    "No muscle gain promise.",
+    "No before-after.",
+    "No body ideal or insecurity-based copy.",
+    "No encouragement of indiscriminate medication use.",
+    "No false discount, price or certification.",
+    "No doctor coat, medical authority or fake approval.",
+    "No product replacing professional guidance.",
+    "Regulated products require legal/sanitary review before any ad."
+  ]
+}

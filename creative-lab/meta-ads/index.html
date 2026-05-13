@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Creative Lab - Meta Ads MusclePrime Brasil</title>
+    <style>
+      :root {
+        --page: #fdfdfb;
+        --panel: #ffffff;
+        --ink: #424b5d;
+        --muted: #748092;
+        --line: #e5e8ec;
+        --blue: #8bbcff;
+        --blue-strong: #518bdc;
+        --navy: #0e2a4a;
+        --radius: 18px;
+        font-family: Geist, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 12% 0%, rgba(139, 188, 255, 0.22), transparent 26rem),
+          linear-gradient(180deg, #ffffff 0%, var(--page) 100%);
+      }
+
+      .shell {
+        width: min(1180px, calc(100% - 36px));
+        margin: 0 auto;
+        padding: 34px 0 60px;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 260px minmax(0, 1fr);
+        gap: 32px;
+        align-items: center;
+        padding-bottom: 26px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      header img {
+        width: 240px;
+        height: 54px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .kicker {
+        display: inline-flex;
+        margin-bottom: 10px;
+        color: var(--blue-strong);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        color: var(--navy);
+        font-size: clamp(34px, 5vw, 64px);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .intro {
+        max-width: 690px;
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-size: 17px;
+        line-height: 1.6;
+      }
+
+      .notice {
+        margin: 26px 0;
+        padding: 18px;
+        border: 1px solid rgba(139, 188, 255, 0.48);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.76);
+      }
+
+      .notice strong,
+      .notice span {
+        display: block;
+      }
+
+      .notice strong {
+        color: var(--navy);
+        margin-bottom: 6px;
+      }
+
+      .notice span {
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(230px, 1fr));
+        gap: 18px;
+        overflow-x: auto;
+        padding: 10px 2px 18px;
+      }
+
+      .ad-card {
+        display: grid;
+        gap: 14px;
+        min-height: 620px;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--panel);
+        box-shadow: 0 20px 60px rgba(14, 42, 74, 0.08);
+      }
+
+      .mock {
+        position: relative;
+        min-height: 320px;
+        overflow: hidden;
+        border-radius: 20px;
+        background:
+          linear-gradient(180deg, rgba(14, 42, 74, 0.06), rgba(139, 188, 255, 0.12)),
+          var(--page);
+      }
+
+      .mock::before {
+        content: "";
+        position: absolute;
+        inset: 28px 34px auto;
+        height: 40px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: inset 0 0 0 1px rgba(81, 139, 220, 0.18);
+      }
+
+      .phone {
+        position: absolute;
+        left: 50%;
+        top: 78px;
+        width: 118px;
+        height: 210px;
+        border: 8px solid #102d4b;
+        border-radius: 24px;
+        background: #ffffff;
+        transform: translateX(-50%);
+        box-shadow: 0 20px 44px rgba(14, 42, 74, 0.22);
+      }
+
+      .phone::before,
+      .phone::after {
+        content: "";
+        position: absolute;
+        left: 18px;
+        right: 18px;
+        height: 10px;
+        border-radius: 999px;
+        background: #e8f1ff;
+      }
+
+      .phone::before {
+        top: 34px;
+      }
+
+      .phone::after {
+        top: 58px;
+        box-shadow: 0 24px 0 #e8f1ff, 0 48px 0 #e8f1ff, 0 72px 0 #e8f1ff;
+      }
+
+      .tag {
+        position: absolute;
+        left: 18px;
+        right: 18px;
+        bottom: 18px;
+        display: grid;
+        gap: 8px;
+        padding: 12px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.88);
+        box-shadow: inset 0 0 0 1px rgba(81, 139, 220, 0.14);
+      }
+
+      .tag b {
+        color: var(--navy);
+        font-size: 18px;
+        line-height: 1.05;
+      }
+
+      .tag small {
+        color: var(--muted);
+        font-weight: 700;
+      }
+
+      .ad-card h2 {
+        margin: 0;
+        color: var(--navy);
+        font-size: 20px;
+        line-height: 1.1;
+      }
+
+      .ad-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: auto;
+      }
+
+      .meta span {
+        padding: 7px 9px;
+        border-radius: 999px;
+        background: #f0f6ff;
+        color: #305f9e;
+        font-size: 12px;
+        font-weight: 850;
+      }
+
+      @media (max-width: 760px) {
+        header {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <header>
+        <img src="../../assets/brand/muscleprime-logo-transparent.png" alt="MusclePrime Brasil" />
+        <div>
+          <span class="kicker">Dev-only creative lab</span>
+          <h1>Meta Ads MusclePrime Brasil</h1>
+          <p class="intro">
+            Mockups visuais para os cinco conceitos de criativos. Esta pagina nao e linkada no site
+            principal e serve apenas como referencia interna antes da geracao final.
+          </p>
+        </div>
+      </header>
+
+      <section class="notice">
+        <strong>Compliance</strong>
+        <span>
+          Criativos focados em catalogo, busca e organizacao. Nao usar nomes de medicamentos,
+          dosagens, resultados corporais, antes/depois, descontos falsos ou promessas de saude.
+        </span>
+      </section>
+
+      <section class="grid" aria-label="Opcoes de criativos">
+        <article class="ad-card">
+          <div class="mock">
+            <div class="phone"></div>
+            <div class="tag"><b>Performance com mais clareza</b><small>Ver catalogo</small></div>
+          </div>
+          <h2>1. Catalogo de Performance Premium</h2>
+          <p>Smartphone central, cards do catalogo e visual branco/azul clinico.</p>
+          <div class="meta"><span>Cold</span><span>4:5</span><span>1:1</span></div>
+        </article>
+
+        <article class="ad-card">
+          <div class="mock">
+            <div class="phone"></div>
+            <div class="tag"><b>Sua rotina mais organizada</b><small>Explorar agora</small></div>
+          </div>
+          <h2>2. Treino, Rotina e Organizacao</h2>
+          <p>Bancada editorial com celular e produtos genericos sem rotulos.</p>
+          <div class="meta"><span>Cold</span><span>Lifestyle</span></div>
+        </article>
+
+        <article class="ad-card">
+          <div class="mock">
+            <div class="phone"></div>
+            <div class="tag"><b>Achou. Comparou. Decidiu.</b><small>Comecar</small></div>
+          </div>
+          <h2>3. Achou, Comparou, Decidiu</h2>
+          <p>Jornada em tres cards de UI para explicar o uso do catalogo.</p>
+          <div class="meta"><span>Warm</span><span>UI</span></div>
+        </article>
+
+        <article class="ad-card">
+          <div class="mock">
+            <div class="phone"></div>
+            <div class="tag"><b>Menos busca. Mais clareza.</b><small>Ver categorias</small></div>
+          </div>
+          <h2>4. Curadoria MusclePrime</h2>
+          <p>Prateleira digital e categorias genericas organizadas.</p>
+          <div class="meta"><span>Cold</span><span>Catalogo</span></div>
+        </article>
+
+        <article class="ad-card">
+          <div class="mock">
+            <div class="phone"></div>
+            <div class="tag"><b>Monte sua rotina com clareza</b><small>Ver opcoes</small></div>
+          </div>
+          <h2>5. Rotina Inteligente</h2>
+          <p>Pack visual generico para retargeting, sem preco ou promessa.</p>
+          <div class="meta"><span>Retargeting</span><span>Seguro</span></div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
