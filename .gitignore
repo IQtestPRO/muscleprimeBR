@@ -1,2 +1,4 @@
 local-server*.log
 .vercel/
+
+.vercel
