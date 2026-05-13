@@ -96,9 +96,9 @@ input {
   align-items: center;
   justify-content: center;
   justify-self: center;
-  width: clamp(230px, 28vw, 340px);
-  max-width: 42vw;
-  height: 70px;
+  width: clamp(205px, 24vw, 290px);
+  max-width: 36vw;
+  height: 54px;
   overflow: visible;
   text-decoration: none;
 }
@@ -309,9 +309,9 @@ input {
 
   .store-name {
     grid-row: 1;
-    width: min(340px, 90vw);
-    max-width: 92vw;
-    height: 70px;
+    width: min(280px, 82vw);
+    max-width: 86vw;
+    height: 54px;
   }
 
   .store-name img {
